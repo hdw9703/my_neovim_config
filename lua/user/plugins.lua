@@ -50,7 +50,7 @@ return packer.startup(function(use)
    
   use {
     'lewis6991/gitsigns.nvim',  -- Super fast git decorations implemented purely in lua/teal.
-     tag = 'v0.4' -- To use the latest release
+     -- tag = 'v0.4' -- To use the latest release
   }  
 
 
