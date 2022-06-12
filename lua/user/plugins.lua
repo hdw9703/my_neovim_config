@@ -48,6 +48,10 @@ return packer.startup(function(use)
 
   use "preservim/nerdcommenter" -- 注释插件
    
+  use {
+    'lewis6991/gitsigns.nvim',  -- Super fast git decorations implemented purely in lua/teal.
+     tag = 'v0.4' -- To use the latest release
+  }  
 
 
   -- Automatically set up your configuration after cloning packer.nvim
